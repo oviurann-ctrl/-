@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эрмитаж</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Pinyon+Script&family=Tenor+Sans&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/favicon.png" type="image/svg+xml">
+</head>
+
+<body>
+
+    <!-- шапка -->
+    <header class="header">
+        <nav class="nav">
+            <a class="btn" href="#">Об Эрмитаже</a>
+            <a class="btn" href="#">Посетителям</a>
+        </nav>
+
+        <a class="logo" href="#">
+            <img src="image/logo-text.svg" alt="Эрмитаж">
+        </a>
+
+        <nav class="nav">
+            <a class="btn" href="#">Билеты</a>
+            <a class="btn" href="#">Новости</a>
+        </nav>
+    </header>
+
+
+    <!-- баннер -->
+    <section class="banner">
+        <p class="subtitle">«Государственный музей»</p>
+
+        <img class="title" src="image/title.svg" alt="Эрмитаж">
+        <img class="curtain-left" src="image/curtain-left.png" alt="">
+        <img class="curtain-right" src="image/curtain-right.png" alt="">
+    </section>
+
+
+    <!-- блок с видео -->
+    <section class="history" id="history">
+        <video class="video" autoplay muted loop playsinline>
+            <source src="video/history_compross_compross.mp4" type="video/mp4">
+        </video>
+    </section>
+
+
+    <!-- блок выставки и события -->
+    <section class="afisha">
+        <h2 class="afisha-zagolovok">Выставки и события</h2>
+        <p class="afisha-podzagolovok">Афиша <span class="tochka"></span> Сейчас в музее</p>
+
+        <div class="kartochki">
+
+            <button class="strelka strelka-levo" type="button">«</button>
+
+            <div class="kartochka">
+                <img class="kartinka" src="image/krt1.png" alt="">
+                <h3>Искусство жить красиво</h3>
+                <div class="stroka">
+                    <p>Выставка русской живописи XVIII-XIX</p>
+                    <span class="data">12.11 - 28.02</span>
+                </div>
+                <a class="podrobnee" href="#">Подробнее</a>
+                <img class="ornament" src="image/ornament.png" alt="">
+            </div>
+
+            <div class="kartochka kartochka-bolshaya">
+                <img class="kartinka" src="image/krt2.png" alt="">
+                <h3>Античность в деталях</h3>
+                <div class="stroka">
+                    <p>Скульптура, керамика, предметы быта Древней Греции и Рима</p>
+                    <span class="data">5.12 - 15.03</span>
+                </div>
+                <a class="podrobnee" href="#">Подробнее</a>
+                <img class="ornament" src="image/ornament.png" alt="">
+            </div>
+
+            <div class="kartochka">
+                <img class="kartinka" src="image/krt3.png" alt="">
+                <h3>Сокровища Эрмитажа</h3>
+                <div class="stroka">
+                    <p>Уникальные экспонаты из собрания музея</p>
+                    <span class="data">20.12 - 30.04</span>
+                </div>
+                <a class="podrobnee" href="#">Подробнее</a>
+                <img class="ornament" src="image/ornament.png" alt="">
+            </div>
+
+            <button class="strelka strelka-pravo" type="button">»</button>
+
+        </div>
+
+        <a class="vsya-afisha" href="#">Вся афиша →</a>
+    </section>
+
+
+    <!-- шедевры коллекции -->
+    <section class="shedevry">
+        <div class="shedevry-vnutri">
+
+            <img class="shedevry-liniya" src="image/ornament-vert.png" alt="">
+            <img class="shedevry-nadpis" src="image/shedevri.png" alt="Шедевры коллекции">
+
+            <div class="kartina kartina-1">
+                <img class="ramka" src="image/kartina1.png" alt="">
+                <span class="strelka-kartiny">▲</span>
+                <p class="opisanie">Элизабет Виже-Лебрен, 1783
+                    Французская королева запечатлена в момент расцвета эпохи рококо. Художница мастерски передала
+                    нежность образа через мягкие тона платья и легкость высокой прически, ставшей символом
+                    Versailles.
+                </p>
+            </div>
+
+            <div class="kartina kartina-2">
+                <img class="ramka" src="image/kartina2.png" alt="">
+                <span class="strelka-kartiny">▲</span>
+                <p class="opisanie">Рафаэль Санти, 1502–1503
+                    Одно из ранних произведений великого мастера эпохи Возрождения. Композиция излучает тихую
+                    гармонию и материнскую нежность.</p>
+            </div>
+
+            <div class="kartina kartina-3">
+                <img class="ramka" src="image/kartina3.png" alt="">
+                <span class="strelka-kartiny">▲</span>
+                <p class="opisanie">«Танец» Анри Матисса — это один из главных шедевров мирового модернизма и
+                    фовизма, символизирующий чистую энергию, ритм и радость бытия.</p>
+            </div>
+
+            <div class="kartina kartina-4">
+                <img class="ramka" src="image/kartina4.png" alt="">
+                <span class="strelka-kartiny">▲</span>
+                <p class="opisanie">Томас Гейнсборо, 1785
+                    Английский портретист создал образ, полный достоинства и скрытой эмоциональности. Черное платье
+                    контрастирует с мягким пейзажем, подчеркивая внутреннюю силу и элегантность героини.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- великие деятели музея -->
+    <section class="deyateli" id="deyateli">
+        <div class="container">
+
+            <h2 class="deyateli-title">
+                Великие деятели<br>музея
+            </h2>
+
+            <img class="deyateli-ornament" src="image/ornament.png" alt="">
+
+            <p class="deyateli-subtitle">
+                Выберите историческую личность:
+            </p>
+
+            <div class="deyateli-block">
+
+                <details class="deyatel-otvet">
+                    <summary>
+                        <span class="deyatel-heading">
+                            <span class="deyatel-name">Екатерина II Великая</span>
+                            <span class="deyatel-role">Императрица Всероссийская</span>
+                        </span>
+
+                        <img class="deyatel-icon" src="image/ornament-razvorot.png" alt="">
+                    </summary>
+
+                    <div class="deyatel-content">
+                        <p>
+                            Екатерина II Великая (1729–1796):
+                            императрица России с 1762 по 1796 год.
+                            Родилась в 1729 году
+                            в немецком городе Штеттине в семье
+                            небогатого князя. В 14 лет приехала
+                            в Россию, приняла православие и вышла
+                            замуж за наследника престола Петра
+                            Фёдоровича, будущего Петра III.
+                        </p>
+
+                        <p>
+                            Екатерина собирала картины, книги
+                            и редкости, писала пьесы и сказки,
+                            строила дворцы и театры. В 1764 году
+                            она купила коллекцию из 225 картин,
+                            с чего и начался Эрмитаж.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="deyatel-otvet">
+                    <summary>
+                        <span class="deyatel-heading">
+                            <span class="deyatel-name">Пётр I Великий</span>
+                            <span class="deyatel-role">Первый Российский Император</span>
+                        </span>
+
+                        <img class="deyatel-icon" src="image/ornament-razvorot.png" alt="">
+                    </summary>
+
+                    <div class="deyatel-content">
+                        <p>
+                            Пётр I (1672–1725) — первый российский
+                            император, государственный деятель
+                            и реформатор. Он основал Санкт-Петербург
+                            и стремился сделать Россию частью
+                            европейской культурной жизни.
+                        </p>
+
+                        <p>
+                            При Петре I началось активное
+                            коллекционирование произведений
+                            искусства и редкостей, заложившее
+                            основу будущих музейных собраний.
+                        </p>
+                    </div>
+                </details>
+
+                <details class="deyatel-otvet">
+                    <summary>
+                        <span class="deyatel-heading">
+                            <span class="deyatel-name">Николай I Павлович</span>
+                            <span class="deyatel-role">Император и создатель Нового Эрмитажа</span>
+                        </span>
+
+                        <img class="deyatel-icon" src="image/ornament-razvorot.png" alt="">
+                    </summary>
+
+                    <div class="deyatel-content">
+                        <p>
+                            Николай I (1796–1855) — российский
+                            император, при котором Эрмитаж
+                            стал доступен для широкой публики.
+                        </p>
+
+                        <p>
+                            По его распоряжению было построено
+                            здание Нового Эрмитажа, открытое
+                            в 1852 году. Оно стало первым
+                            в России специально созданным
+                            публичным художественным музеем.
+                        </p>
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Маршрут по Эрмитажу -->
+    <section class="marshrut">
+        <div class="marshrut-container">
+
+            <header class="marshrut-zagolovok">
+                <h2>Маршрут по Эрмитажу</h2>
+                <p>Пять залов, которые стоит увидеть, если у вас есть два часа</p>
+            </header>
+
+            <div class="marshrut-soderzhanie">
+
+                <div class="marshrut-levaya">
+
+                    <div class="marshrut-shkala">
+                        <div class="marshrut-punkty">
+
+                            <div class="marshrut-punkt proiden">
+                                <span class="marshrut-nomer">01</span>
+                                <div class="marshrut-informaciya">
+                                    <h3>Иорданская лестница</h3>
+                                    <p>30 мин, Зимний дворец</p>
+                                </div>
+                            </div>
+
+                            <div class="marshrut-punkt proiden">
+                                <span class="marshrut-nomer">02</span>
+                                <div class="marshrut-informaciya">
+                                    <h3>Павильонный зал</h3>
+                                    <p>20 мин, часы «Павлин»</p>
+                                </div>
+                            </div>
+
+                            <div class="marshrut-punkt tekushiy">
+                                <span class="marshrut-nomer">03</span>
+                                <div class="marshrut-informaciya">
+                                    <h3>Зал Леонардо да Винчи</h3>
+                                    <p>25 мин, зал 214</p>
+                                </div>
+                            </div>
+
+                            <div class="marshrut-punkt">
+                                <span class="marshrut-nomer">04</span>
+                                <div class="marshrut-informaciya">
+                                    <h3>Лоджии Рафаэля</h3>
+                                    <p>20 мин, галерея</p>
+                                </div>
+                            </div>
+
+                            <div class="marshrut-punkt">
+                                <span class="marshrut-nomer">05</span>
+                                <div class="marshrut-informaciya">
+                                    <h3>Зал Рембрандта</h3>
+                                    <p>25 мин, шедевры Голландии</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="marshrut-knopki">
+
+                        <a href="#" class="marshrut-knopka">
+                            <img src="image/save.png" alt="">
+                            <span>Скачать аудиогид</span>
+                        </a>
+
+                        <a href="#" class="marshrut-knopka">
+                            <img src="image/map.png" alt="">
+                            <span>Показать путь на плане</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="marshrut-pravaya">
+
+                    <div class="marshrut-foto">
+                        <img src="image/leo.png" alt="Леонардо да Винчи">
+                    </div>
+
+                    <h2>Зал 214: Леонардо да Винчи</h2>
+
+                    <p class="marshrut-opisanie">
+                        Главные экспонаты: «Мадонна Литта»,
+                        «Мадонна Бенуа»
+                    </p>
+
+                    <div class="marshrut-vremya">
+                        <button type="button">1.5 ч</button>
+                        <button type="button" class="vybrano">2 ч</button>
+                        <button type="button">Весь день</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- выбрать экскурсию -->
+    <section class="ekskursiya">
+        <div class="ekskursiya-container">
+
+            <div class="ekskursiya-bilety">
+                <img src="image/bilet.png" alt="Билеты на экскурсии Эрмитажа">
+            </div>
+
+            <div class="ekskursiya-pravaya">
+
+                <h2 class="ekskursiya-zagolovok">Выбрать экскурсию</h2>
+
+                <div class="ekskursiya-box">
+
+                    <form class="ekskursiya-form" action="#">
+
+                        <h3>Форма записи</h3>
+
+                        <p class="ekskursiya-opisanie">
+                            Выберите экскурсию, удобную дату и оставьте свои
+                            контакты — мы поможем организовать ваше посещение.
+                        </p>
+
+                        <div class="ekskursiya-pole">
+                            <label for="ekskursiya">Какую экскурсию вы хотите посетить?</label>
+
+                            <select id="ekskursiya" name="ekskursiya" required>
+                                <option value="" selected disabled>Выберите экскурсию</option>
+                                <option value="znakomstvo">Знакомство с Эрмитажем</option>
+                                <option value="shedevry">Шедевры живописи</option>
+                                <option value="tainy">Тайны Зимнего дворца</option>
+                            </select>
+                        </div>
+
+                        <div class="ekskursiya-pole">
+                            <label for="data">Желаемая дата</label>
+                            <input type="date" id="data" name="data" required>
+                        </div>
+
+                        <div class="ekskursiya-pole">
+                            <label for="imya">Ваше имя</label>
+                            <input type="text" id="imya" name="imya" placeholder="Как к вам обращаться" required>
+                        </div>
+
+                        <div class="ekskursiya-pole">
+                            <label for="kontakt">Телефон или электронная почта</label>
+                            <input type="text" id="kontakt" name="kontakt" placeholder="Контакт для связи" required>
+                        </div>
+
+                        <button class="ekskursiya-knopka" type="submit">
+                            Записаться на экскурсию
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- подвал -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-block">
+                <a href="#" class="footer-logo">
+                    <img src="image/logo-text.svg" alt="Логотип Эрмитажа">
+                </a>
+                <p class="footer-description">
+                    Государственный Эрмитаж.<br>
+                    Один из крупнейших художественных и культурно-исторических музеев России и мира.
+                </p>
+            </div>
+
+            <div class="footer-contacts">
+                <h3>Контакты</h3>
+                <a href="tel:+78127109079">+7 (812) 710-90-79</a>
+                <a href="mailto:info@hermitage.ru">info@hermitage.ru</a>
+                <p>г. Санкт-Петербург,<br>Дворцовая набережная, 34</p>
+            </div>
+
+            <div class="footer-socials">
+                <h3>Мы на связи</h3>
+                <a href="https://vk.com/hermitage_museum" target="_blank" rel="noopener noreferrer">
+                    <img src="image/vk.png" alt="">
+                    ВКонтакте
+                </a>
+                <a href="https://max.ru/" target="_blank" rel="noopener noreferrer">
+                    <img src="image/max.png" alt="">
+                    MAX
+                </a>
+            </div>
+
+            <div class="footer-legal">
+                <h3>Информация</h3>
+                <a href="#">Правила посещения</a>
+                <a href="#">Льготные категории</a>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Государственный Эрмитаж. Учебный проект.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
