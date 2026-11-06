@@ -1,6 +1,22 @@
 @font-face {
     font-family: 'Snell Roundhand';
-    src: url('../fonts/SnellRoundhand.woff2') format('woff2');
+    src: url('../fonts/SnellRoundhand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tenor Sans';
+    src: url('../fonts/TenorSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Forum';
+    src: url('../fonts/Forum-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 * {
